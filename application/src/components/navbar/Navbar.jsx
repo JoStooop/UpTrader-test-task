@@ -10,7 +10,6 @@ const Navbar = () => {
   return (
     <div className={s.wrap}>
       <NavLink to='/' style={setActive}>HOME</NavLink>
-      <NavLink to='/todo' style={setActive}>TODOS</NavLink>
     </div>
   );
 };

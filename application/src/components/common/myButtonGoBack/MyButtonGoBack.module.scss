@@ -1,0 +1,14 @@
+.wrap {
+  width: 60px;
+  padding: 10px;
+  background-color: #7EA2AA;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  transition-duration: .6s;
+
+  &:hover {
+    scale: 1.05;
+    color: #f8c38b;
+  }
+}

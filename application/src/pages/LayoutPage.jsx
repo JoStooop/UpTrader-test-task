@@ -1,24 +1,23 @@
 import React from 'react';
-import {Outlet} from 'react-router-dom';
 import {Header} from '../components/header/Header';
 import {Navbar} from '../components/navbar/Navbar';
 import {Main} from '../components/main/Main';
+import {Outlet} from 'react-router-dom';
 import {Footer} from '../components/footer/Footer';
 
-const HomePage = () => {
+const LayoutPage = () => {
   return (
     <>
       <Header>
-        <Navbar />
+        <Navbar/>
       </Header>
       <Main>
-        <Outlet />
+        <Outlet/>
       </Main>
-      <Footer>
-        FOOTER
-      </Footer>
+      <Footer />
     </>
-  );
+  )
+  ;
 };
 
-export {HomePage};
+export {LayoutPage};

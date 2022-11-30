@@ -1,8 +1,9 @@
 import React from 'react';
+import s from './MyWrap.module.scss';
 
 const MyWrap = ({children}) => {
   return (
-    <div style={{width: '1700px'}}>
+    <div className={s.wrap}>
       {children}
     </div>
   );

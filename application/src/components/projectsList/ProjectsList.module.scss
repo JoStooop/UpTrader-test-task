@@ -1,0 +1,16 @@
+.wrap {
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  & a {
+    color: white;
+  }
+}
+
+.list {
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
