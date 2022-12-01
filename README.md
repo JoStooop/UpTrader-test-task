@@ -1,15 +1,11 @@
 # Тестовое задание для компании "UpTrader"
 
 <p align="center">
-      <img src="Project Logo Url" width="726">
-</p>
-
-<p align="center">
    <img src="https://img.shields.io/badge/node.js-v18.12.1-success" alt="Node-version">
 </p>
 
 ## Примечание
-<p>Мной затрачено премени: 2 дня</p>
+<p>Мной затрачено времени: 2 дня</p>
 <p>Впервые работал с drag-n-drop и решил сдлеать на ванильном JS. Так было интересней выполнять задачу.</p>
 <p>Выполнены были не все пункты по ТЗ</p>
 
