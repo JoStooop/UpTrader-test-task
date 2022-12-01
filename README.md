@@ -11,8 +11,7 @@
 
 ## Distribute
 
-- [Ссылка на деплой](Page Link)
-- [Ссылка на тестовое](Page Link)
+- [Ссылка на деплой](https://up-trader-test-task.vercel.app/)
 
 ## Коротко о задании:
 
