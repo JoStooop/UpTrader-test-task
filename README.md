@@ -5,14 +5,13 @@
 </p>
 
 <p align="center">
-   <img src="" alt="Unity Version">
-   <img src="" alt="Game Version">
-   <img src="" alt="License">
+   <img src="https://img.shields.io/badge/node.js-v18.12.1-success" alt="Node-version">
 </p>
 
-## About
-
-"UpTrader" – продуктовая FinTech компания.
+## Примечание
+<p>Мной затрачено премени: 2 дня</p>
+<p>Впервые работал с drag-n-drop и решил сдлеать на ванильном JS. Так было интересней выполнять задачу.</p>
+<p>Выполнены были не все пункты по ТЗ</p>
 
 ## Distribute
 
