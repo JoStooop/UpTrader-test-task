@@ -14,7 +14,7 @@
 
 .border {
   min-width: 400px;
-  max-height: 800px;
+  min-height: auto;
   border: 5px solid lightgray;
   padding: 20px 10px;
   border-radius: 12px;
@@ -34,6 +34,19 @@
   margin: 5px 0;
   cursor: grab;
   background-color: #fcfcf9;
+  position: relative;
+}
+
+.item__done {
+  display: flex;
+  flex-direction: column;
+  width: 88%;
+  border: 2px solid green;
+  padding: 20px;
+  border-radius: 6px;
+  margin: 5px 0;
+  cursor: grab;
+  background-color: #e2fce2;
   position: relative;
 }
 

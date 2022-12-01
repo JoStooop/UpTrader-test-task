@@ -8,6 +8,9 @@ const TodosList = ({todos}) => {
   const [currentBoard, setCurrentBoard] = useState(null);
   const [currentItem, setCurrentItem] = useState(null);
 
+  const isBoardQueue = 'Queue';
+  const isBoardDone = 'Done';
+
   const dragStartHandler = (e, board, item) => {
     setCurrentBoard(board);
     setCurrentItem(item);
@@ -65,7 +68,7 @@ const TodosList = ({todos}) => {
             {!!board.items.length ?
               board.items.map((item, index) =>
                 <div key={item.id}
-                  className={s.item}
+                  className={board.status === isBoardDone ? s.item__done : s.item}
                   onChange={handlerChange}
                   draggable={true}
                   onDragStart={(e) => dragStartHandler(e, board, item)}
@@ -75,7 +78,7 @@ const TodosList = ({todos}) => {
                   {++index}. {item.title}
                   <p className={s.body}>{item.body}</p>
                   <p className={s.data}>{format(new Date(item.id), 'dd/MM/yyyy - h:m')}</p>
-                  <div className={s.edit} onClick={()=> console.log('tsss')}>Редактировать</div>
+                  {board.status === isBoardQueue ? <div className={s.edit} onClick={()=> console.log('tsss')}>Редактировать</div> : null}
                 </div>) :
               <div className={s.task__list__empty}>Список задач пуст</div>
             }
