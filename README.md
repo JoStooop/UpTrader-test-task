@@ -20,5 +20,12 @@
 ![задание ч.3](readme-images/Three.png)
 </details>
 
+## Stack:
+![React](https://img.shields.io/badge/-React-090909?style=for-the-badge&logo=React&logoColor=F8C52)
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Eslint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
+
+
 ## Deploy
 Website link: [Test task "UpTrader"](https://up-trader-test-task.vercel.app/)
