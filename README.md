@@ -1,21 +1,24 @@
-# Тестовое задание для компании "UpTrader"
+# Test assignment for "UpTrader" company.
 
-<p align="center">
-   <img src="https://img.shields.io/badge/node.js-v18.12.1-success" alt="Node-version">
-</p>
+## Details:
+- Time spent by me: 2 days
+- It was my first time working with drag-n-drop, and I decided to do it with vanilla JS without using any additional frameworks. It made the task more interesting to complete.
+- I allocated little time for styling the application.
+- Not all items from the specification were completed.
 
-## Примечание
-<p>Мной затрачено времени: 2 дня</p>
-<p>Впервые работал с drag-n-drop и решил сдлеать на ванильном JS без доп. фреймворков для этого. Так было интересней выполнять задачу.</p>
-<p>Над стилизацией приложения уделил мало времени</p>
-<p>Выполнены были не все пункты по ТЗ</p>
+## Website preview:
+<details><summary><b>Show screenshots</b></summary>
 
-## Distribute
+![screen--jostooop--website-techno](readme-images/screen-up-trader-test-task.png)
+</details>
 
-- [Ссылка на деплой](https://up-trader-test-task.vercel.app/)
-
-## Коротко о задании:
+## Task Description:
+<details><summary><b>Show screenshots</b></summary>
 
 ![задание ч.1](readme-images/One.png)
 ![задание ч.2](readme-images/Two.png)
 ![задание ч.3](readme-images/Three.png)
+</details>
+
+## Deploy
+Website link: [Test task "UpTrader"](https://up-trader-test-task.vercel.app/)
